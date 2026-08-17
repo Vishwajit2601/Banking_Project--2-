@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-banking-prod"
+		},
+		"ls_adls_accountKey": {
+			"value": ""
+		},
+		"AzureDatabricks1_properties_typeProperties_existingClusterId": {
+			"value": "0817-175355-2c0og0wq"
+		},
+		"ls_AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://bankingKeyVault26.vault.azure.net/"
+		},
+		"ls_adls_properties_typeProperties_url": {
+			"value": "https://bankingstorage26.dfs.core.windows.net/"
+		},
+		"ls_onprem_properties_typeProperties_host": {
+			"value": "D:\\"
+		},
+		"ls_onprem_properties_typeProperties_userId": {
+			"value": "desktop-lqs305u\\vishwajit"
+		}
+	}
+}
