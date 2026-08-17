@@ -1,0 +1,15 @@
+{
+	"name": "adf-banking-prod",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "6335fca3-cba8-4839-b8a6-b7cbde46c2f5",
+		"tenantId": "f7df4a25-a18d-4d11-8265-b96b3e168f9f"
+	}
+}
